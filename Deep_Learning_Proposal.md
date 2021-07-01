@@ -17,7 +17,7 @@ Recipies for drinks can be achieved from TheCocktaildb.com - a large database of
 
 
 <br>
-### Algorithms
+### Algorithms<br>
 <hr></hr>
 I will be using a convolutional neural network to process the images. 
 <br>
