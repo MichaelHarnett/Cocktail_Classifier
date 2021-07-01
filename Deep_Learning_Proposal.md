@@ -11,7 +11,7 @@ The bar can be an intimidating place! It's unlikely that you were introducted to
 <hr></hr>
 Unfortunately I could not find a robust data set of cocktail photos; therefore, I will have to make my own! I will utitilze the google_ images_download python package to download images myself. I plan, to start, to look at 15 cocktails, at 500 images per cocktail. This being my first deep learning project, I will start with these numbers and determine if more data points are possible. 
 <br>
-Recipies for drinks can be achieved from [TheCocktaildb.com]() - a large database of cocktail recipies. 
+Recipies for drinks can be achieved from TheCocktaildb.com - a large database of cocktail recipies. 
 <br>
 <br>
 
