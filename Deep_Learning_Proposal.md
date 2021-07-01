@@ -14,15 +14,17 @@ Unfortunately I could not find a robust data set of cocktail photos; therefore, 
 Recipies for drinks can be achieved from TheCocktaildb.com - a large database of cocktail recipies. 
 <br>
 <br>
-
-
 <br>
+
+
 ### Algorithms
 <hr></hr>
 I will be using a convolutional neural network to process the images. 
 <br>
 <br>
 <br>
+
+
 ### Tools
 <hr></hr>
 Because of the size of the data, and functionality of a neural network, I will be using a combination of Google Cloud and Google Colab for this project. <br>
