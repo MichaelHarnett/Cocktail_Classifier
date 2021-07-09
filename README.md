@@ -4,6 +4,8 @@ Deep learning and neural networks module at Metis
 
 <br>
 <br>
+
+
 # Explanation of Notebooks
 <hr></hr>
 data_prelim - was used to try out google_image_api, before I found out it is no longer compatible with Google.
