@@ -4,6 +4,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 from keras import preprocessing, layers
+from keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 #import matplotlib.pyplot as plt
 #import matplotlib.image as mpimg
