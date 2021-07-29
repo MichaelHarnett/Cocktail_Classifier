@@ -1,7 +1,7 @@
 pandas
 numpy
 Keras
-keras-preprocessing
+Keras-Preprocessing==1.1.2
 matplotlib
 matplotlib-inline
 Pillow
