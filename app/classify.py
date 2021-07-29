@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 from keras import preprocessing, layers
-from keras.preprocessing.image import image, img_to_array
+from tensorflow.keras.preprocessing.image import img_to_array
 #import matplotlib.pyplot as plt
 #import matplotlib.image as mpimg
 from PIL import Image
@@ -39,7 +39,7 @@ def photo_tester(photo):
     #pre-process
 
     #photo = image.resize((256,256,3))
-    x = image.img_to_array(photo)
+    x = tf.keras.preprocessing.image.img_to_array(photo)
     x = np.expand_dims(x, axis=0)
     
 #     #display

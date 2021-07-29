@@ -1,4 +1,3 @@
--- upgrade pip
 importlib-metadata==3.9
 pandas
 numpy
