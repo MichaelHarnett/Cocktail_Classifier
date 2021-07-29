@@ -1,5 +1,4 @@
 pandas
-numpy
 Keras
 matplotlib
 matplotlib-inline
