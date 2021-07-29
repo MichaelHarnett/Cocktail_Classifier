@@ -1,7 +1,7 @@
 pandas
+numpy
 Keras
 matplotlib
 matplotlib-inline
 Pillow
-tensorflow
-streamlit
+tensorflow==2.1.0

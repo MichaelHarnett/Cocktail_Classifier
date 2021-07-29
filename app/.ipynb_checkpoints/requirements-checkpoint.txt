@@ -4,4 +4,4 @@ Keras
 matplotlib
 matplotlib-inline
 Pillow
-tensorflow
+tensorflow==2.1.0
