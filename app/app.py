@@ -1,13 +1,13 @@
 import streamlit as st
+import numpy as np 
 import pandas as pd
-import numpy as np
 import tensorflow as tf
 from tensorflow import keras
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
+#import matplotlib.pyplot as plt
+#import matplotlib.image as mpimg
 from PIL import Image
 from classify import photo_tester
-from io import BytesIO, StringIO
+#from io import BytesIO, StringIO
 
 
 model = tf.keras.models.load_model('../Data/my_model') # saved from colab
