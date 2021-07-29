@@ -1,10 +1,8 @@
 import streamlit as st
-import numpy as np 
 import pandas as pd
 import tensorflow as tf
 from tensorflow import keras
 from keras import preprocessing, layers
-from keras.preprocessing.image import image_dataset_from_directory, ImageDataGenerator, image
 from keras.preprocessing.image import image, load_img, img_to_array
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
