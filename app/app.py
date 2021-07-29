@@ -10,7 +10,7 @@ from classify import photo_tester
 #from io import BytesIO, StringIO
 
 
-model = tf.keras.models.load_model('app_data/my_model') # saved from colab
+model = tf.keras.models.load_model('app_data/my_model/saved_model.pb') # saved from colab
 df = pd.read_csv('app_data/recipie_df.csv') # dataframe of recipies and ingredients
 
 
