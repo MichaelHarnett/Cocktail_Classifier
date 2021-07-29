@@ -1,7 +1,0 @@
-pandas
-numpy
-Keras
-matplotlib
-matplotlib-inline
-Pillow
-tensorflow
