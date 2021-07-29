@@ -1,6 +1,7 @@
 pandas
 numpy
 Keras
+keras-preprocessing
 matplotlib
 matplotlib-inline
 Pillow
