@@ -1,4 +1,4 @@
-jsonschema==3.0.2
+importlib-metadata==3.9
 pandas
 numpy
 Keras
