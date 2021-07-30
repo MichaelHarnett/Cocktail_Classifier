@@ -1,18 +1,34 @@
 # Cocktail Classifier
 Deep learning and neural networks module at Metis
 6/2021
-
+<br>
+<br>
+For my first attempt at a Nerual Net and deep learning I wanted to do something that excites me to help psuh me through the learning curve. Natrually I leaned towards alcohol. I searched for a cocktail-themed data set far and wide, but it was nowhere to be found. My idea was to build a cocktail-classifying Convolutional Nerual Netowrk that not only tells you what you're drinking, but how you can make it for yourself. From building the data from scratch to avhieving an overall accuracy on a holdout test set of just over 70%, I would say this was a great way to dip my feet in the deep learning pool.
 <br>
 <br>
 
 
 # Explanation of Notebooks
 <hr></hr>
-data_prelim - was used to try out google_image_api, before I found out it is no longer compatible with Google.
-keras_prelim - was used to begin to try and test out the synax and useage of keras. Baseline model came from this notebook
-colab_test - was used to switch to using Google CoLab, was able to greatly increase speed, and layers/nodes/filters
-recipie_scraping - the notebook used to scrape the cocktail recipies
-coming_together - notebook used to begin to see how I can combine the predictions of my final model with the recipies scraped
+<b>prelim_code folder:</b>
+<ul>
+  <li><b>data_prelim</b> - was used to try out google_image_api, before I found out it is no longer compatible with Google.</li><br>
+  <li><b>keras_prelim</b> - was used to begin to try and test out the synax and useage of keras. Baseline model came from this notebook</li></br>
+  <li><b>colab_test</b> - was used to switch to using Google CoLab, was able to greatly increase speed, and layers/nodes/filters</li><br>
+  <li><b>recipie_scraping</b> - the notebook used to scrape the cocktail recipies</li></br>
+  <li><b>coming_together</b> - notebook used to begin to see how I can combine the predictions of my final model with the recipies scraped</li><br>
+</ul>
+<b>app folder:</b>
+<ul>
+  <li><b>app.py</b> - the code to run my streamlit app</li>
+  <li><b>classify.py</b> - the classifer function I call in app.py</li>
+</ul>
+  
+
+
+
+
+
 app_code.py - code to initialize the streamlit app I created
 classifier.py - A fucntion I created to classify an incoming image based on the weights from my saved model, then display the results from recipie scraping.
 
