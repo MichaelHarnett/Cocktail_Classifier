@@ -57,6 +57,8 @@ and the next two drinks in case it's incorrect.
 
 <br>
 <br>
+
+
 # Algorithms
 <hr></hr>
 After Trying a lot of different configurations, the final set up for the neural network was one without Transfer Learning. It has 5 Convolutional Layers, and 6 Dense Layers, Optomized with a 'softmax' into 10 categories.
