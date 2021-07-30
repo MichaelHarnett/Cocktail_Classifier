@@ -25,6 +25,11 @@ For my first attempt at a Nerual Net and deep learning I wanted to do something 
   <li><b>requriements.txt</b> - requirements for streamlit social to run</li>
   <li><b>app_data folder</b> - copies of model data and recipie df to work easier in streamlit
 </ul>
+<b>main file path:</b>
+<ul>
+ <li><b>final_code</b> - this is a final notebook collecting all the functional code from prievious notebooks, with notes and annotations for easier understanding</li>
+ </ul>
+ 
   
 <br>
 <br>
