@@ -11,7 +11,7 @@ from classify import photo_tester
 
 
 model = tf.keras.models.load_model('./Data/my_model') # saved from colab
-df = pd.read_csv('app_data/recipie_df.csv') # dataframe of recipies and ingredients
+df = pd.read_csv('./Data/recipie_df.csv') # dataframe of recipies and ingredients
 
 
 
