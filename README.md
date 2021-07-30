@@ -12,28 +12,20 @@ For my first attempt at a Nerual Net and deep learning I wanted to do something 
 <hr></hr>
 <b>prelim_code folder:</b>
 <ul>
-  <li><b>data_prelim</b> - was used to try out google_image_api, before I found out it is no longer compatible with Google.</li><br>
-  <li><b>keras_prelim</b> - was used to begin to try and test out the synax and useage of keras. Baseline model came from this notebook</li></br>
-  <li><b>colab_test</b> - was used to switch to using Google CoLab, was able to greatly increase speed, and layers/nodes/filters</li><br>
-  <li><b>recipie_scraping</b> - the notebook used to scrape the cocktail recipies</li></br>
-  <li><b>coming_together</b> - notebook used to begin to see how I can combine the predictions of my final model with the recipies scraped</li><br>
+  <li><b>data_prelim</b> - was used to try out google_image_api, before I found out it is no longer compatible with Google.</li>
+  <li><b>keras_prelim</b> - was used to begin to try and test out the synax and useage of keras. Baseline model came from this notebook</li>
+  <li><b>colab_test</b> - was used to switch to using Google CoLab, was able to greatly increase speed, and layers/nodes/filters</li>
+  <li><b>recipie_scraping</b> - the notebook used to scrape the cocktail recipies</li>
+  <li><b>coming_together</b> - notebook used to begin to see how I can combine the predictions of my final model with the recipies scraped</li>
 </ul>
 <b>app folder:</b>
 <ul>
   <li><b>app.py</b> - the code to run my streamlit app</li>
   <li><b>classify.py</b> - the classifer function I call in app.py</li>
+  <li><b>requriements.txt</b> - requirements for streamlit social to run</li>
+  <li><b>app_data folder</b> - copies of model data and recipie df to work easier in streamlit
 </ul>
   
-
-
-
-
-
-app_code.py - code to initialize the streamlit app I created
-classifier.py - A fucntion I created to classify an incoming image based on the weights from my saved model, then display the results from recipie scraping.
-
-
-For my first attempt at a Nerual Net and deep learning I wanted to do something that excites me to help psuh me through the learning curve. Natrually I leaned towards alcohol. I searched for a cocktail-themed data set far and wide, but it was nowhere to be found. My idea was to build a cocktail-classifying Convolutional Nerual Netowrk that not only tells you what you're drinking, but how you can make it for yourself. From building the data from scratch to avhieving an overall accuracy on a holdout test set of just over 70%, I would say this was a great way to dip my feet in the deep learning pool.
 <br>
 <br>
 
