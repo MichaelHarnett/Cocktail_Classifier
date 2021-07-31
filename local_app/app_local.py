@@ -31,7 +31,7 @@ st.sidebar.subheader('Mimosa')
 st.sidebar.subheader('Moscow Mule')
 st.sidebar.subheader('Bloody Mary')
 
-# testing to see if github links look better at bottom or sidebar
+# contact info on sidebar
 st.sidebar.info('Michael\'s: [Github](https://github.com/MichaelHarnett?tab=repositories)  and  [LinkedIn](https://www.linkedin.com/in/michael-c-harnett/)')
 
 

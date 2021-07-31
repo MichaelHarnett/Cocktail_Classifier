@@ -58,6 +58,11 @@ st.sidebar.subheader('Mimosa')
 st.sidebar.subheader('Moscow Mule')
 st.sidebar.subheader('Bloody Mary')
 
+# contact info for bottom of sidebar
+st.sidebar.info('Michael\'s: [Github](https://github.com/MichaelHarnett?tab=repositories)  and  [LinkedIn](https://www.linkedin.com/in/michael-c-harnett/)')
+
+
+
 
 
 model = tf.keras.models.load_model('./Data/my_model') # saved from colab
@@ -72,7 +77,9 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file)
     img = uploaded_file.getvalue()
     st.image(image, caption='Looks delicious! I\'m jealous!', use_column_width=True)
-    st.write("")
+    #st.write("")
+    st.spinner('Hmmmmmmmmm, tasty, tasty....but what is it?') # found code online to display text while the app is thinking, testing it out
+    
     classification = photo_tester(image)
     
     
