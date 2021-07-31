@@ -60,8 +60,8 @@ st.sidebar.subheader('Bloody Mary')
 
 
 
-model = tf.keras.models.load_model('../Data/my_model') # saved from colab
-df = pd.read_csv('../Data/recipie_df.csv') # dataframe of recipies and ingredients
+model = tf.keras.models.load_model('./Data/my_model') # saved from colab
+df = pd.read_csv('./Data/recipie_df.csv') # dataframe of recipies and ingredients
 
 
 
