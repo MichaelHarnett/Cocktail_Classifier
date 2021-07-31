@@ -28,7 +28,44 @@ label_names = [
  'Old Fashioned',
  'Pina Colada']
 
+#---------original app file------#
 
+
+# def photo_tester(photo):
+#     '''
+#     This function is designed to first, pre-process the uploaded image to be commpatible with the nerual net results.
+#     It then predicts the top 3 classes it belongs to, and provieds a photo ingredients and how to make the highest
+#     probable class
+#     '''
+#     #pre-process
+
+#     #photo = image.resize((256,256,3))
+#     x = tf.keras.preprocessing.image.img_to_array(photo)
+#     x = np.expand_dims(x, axis=0)
+    
+    
+
+    
+#     backwards = model.predict(x).argsort()[0]
+#     forwards = []
+#     for items in backwards[-1::-1]:
+#         forwards.append(label_names[items])
+        
+#     st.write('We believe it looks like like this!')
+#     st.write(forwards[0])
+    
+#     ingredients = df.loc[df.cocktail == forwards[0]]['ingredients'].tolist()[0]
+#     st.write('The ingredients for this cocktail are:' + str(ingredients))
+    
+#     recipie = df.loc[df.cocktail == forwards[0]]['recipie'].tolist()[0]
+#     st.write('And you make it like this!' + recipie)
+    
+    
+#     st.write('And if that\'s not it, it may be one of these:' + forwards[1] + forwards[2] )
+
+
+
+#-------upadated app file, copying from local streamlit app---#
 
 
 def photo_tester(photo):
@@ -43,24 +80,25 @@ def photo_tester(photo):
     x = tf.keras.preprocessing.image.img_to_array(photo)
     x = np.expand_dims(x, axis=0)
     
-#     #display
-#     img = mpimg.imread(path)
-#     imgplot = plt.imshow(img)
-#     plt.show()
     
-    backwards = model.predict(x).argsort()[0]
+    #argsort condensed all the probabilities into an array, from least to greatest
+    backwards = model.predict(x).argsort()[0] #ascending
     forwards = []
     for items in backwards[-1::-1]:
-        forwards.append(label_names[items])
+        forwards.append(label_names[items]) #descending
         
     st.write('We believe it looks like like this!')
     st.write(forwards[0])
     
     ingredients = df.loc[df.cocktail == forwards[0]]['ingredients'].tolist()[0]
-    st.write('The ingredients for this cocktail are:' + ingredients)
+    st.write('The ingredients for this cocktail are:')
+    st.write((str(ingredients)[1:-1]).replace("'",""))
     
     recipie = df.loc[df.cocktail == forwards[0]]['recipie'].tolist()[0]
-    st.write('And you make it like this!' + recipie)
+    st.write('Here\'s how you make it!')
+    st.write(recipie)
     
     
-    st.write('And if that\'s not it, it may be one of these:' + forwards[1] + forwards[2] )
+    st.write('Not the drink you were looking for? It could be one of these')
+    st.write(forwards[1])
+    st.write(forwards[2])
