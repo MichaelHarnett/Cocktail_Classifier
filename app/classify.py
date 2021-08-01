@@ -99,6 +99,6 @@ def photo_tester(photo):
     st.write(recipie)
     
     
-    st.write('Not the drink you were looking for? It could be one of these')
+    st.write('Not the drink you were looking for? It could be one of these:')
     st.write(forwards[1])
     st.write(forwards[2])
