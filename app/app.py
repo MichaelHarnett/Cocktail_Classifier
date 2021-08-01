@@ -30,15 +30,15 @@ from classify import photo_tester
 
 
 #------------new app file------------#
-'''
-MICHAEL FIX LATER - copying new app.py file from local app, includes formatting, sidebar, listing
-of cockatils, github link etc. keeping old format in case it does not display properly on streaminbg
-'''
+# '''
+# MICHAEL FIX LATER - copying new app.py file from local version, includes formatting, sidebar, listing
+# of cockatils, github link etc. keeping old format in case it does not display properly on streamlit sharing
+# '''
 
 
 
 # title and header 
-st.title('Cocktail Classifier Beta')
+st.title('Cocktail Classifier Beta V 0.2')
 st.info('This application is currently being developped, and has a long way to go. It can currently only work with the'+ 
         'cocktails listed in the sidebar, but more are on the way!')
 
@@ -85,4 +85,4 @@ if uploaded_file is not None:
     
     
     
-st.info('This app was created as a projcet for Metis. If something isn\'t working right? Want to see your favorite drink on here? Having a bad day and just want to vent? Let me know! I\'m actively working on imporving this app! Contact info is available at the bottom of the sidebar to your left!') 
+st.info('This app was created as a deep learning, nerual network projcet for Metis. Something isn\'t working right? Want to see your favorite drink on here? Having a bad day and just want to vent? Let me know! I\'m actively working on imporving this app! Contact info is available at the bottom of the sidebar to your left!') 
