@@ -6,6 +6,7 @@ Deep learning and neural networks module at Metis
 For my first attempt at a Nerual Net and deep learning I wanted to do something that excites me to help psuh me through the learning curve. Natrually I leaned towards alcohol. I searched for a cocktail-themed data set far and wide, but it was nowhere to be found. My idea was to build a cocktail-classifying Convolutional Nerual Netowrk that not only tells you what you're drinking, but how you can make it for yourself. From building the data from scratch to avhieving an overall accuracy on a holdout test set of just over 70%, I would say this was a great way to dip my feet in the deep learning pool.
 <br>
 <br>
+The Appp is available to the public, and can be found [here](https://share.streamlit.io/michaelharnett/cocktail_classifier/main/app/app.py)
 
 
 # Explanation of Notebooks
