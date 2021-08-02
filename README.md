@@ -3,6 +3,10 @@ Deep learning and neural networks module at Metis
 6/2021
 <br>
 <br>
+This is a working notebook, I am acrively working to develop the application, sometimes the data may be ahead of the readme, please reqch out with any qustions to
+michaelcharnett@gmail.com
+<br>
+<br>
 For my first attempt at a Nerual Net and deep learning I wanted to do something that excites me to help psuh me through the learning curve. Natrually I leaned towards alcohol. I searched for a cocktail-themed data set far and wide, but it was nowhere to be found. My idea was to build a cocktail-classifying Convolutional Nerual Netowrk that not only tells you what you're drinking, but how you can make it for yourself. From building the data from scratch to avhieving an overall accuracy on a holdout test set of just over 70%, I would say this was a great way to dip my feet in the deep learning pool.
 <br>
 <br>
@@ -48,11 +52,11 @@ The recipies and ingredients were pulled from coktailDB's API
 
 # Tools 
 <hr></hr>
-Google chrome Bulk Download extension was used for image captruing
-Requests library was used to pull info out from an API 
-Tensorflow and Keras were used for building the neural network. 
-Matplotlib and Seaborn were used for visualizing the data
-<br>
+Google chrome Bulk Download extension was used for image captruing<br>
+Requests library was used to pull info out from an API <br>
+Tensorflow and Keras were used for building the neural network. <br>
+Matplotlib and Seaborn were used for visualizing the data<br>
+<br><br>
 I also created a streamlit app that takes an input of a photo, tells you the most likely drink it is based on the probability, that drink's recipie and ingredietns,
 and the next two drinks in case it's incorrect.
 
@@ -70,4 +74,5 @@ After Trying a lot of different configurations, the final set up for the neural 
 # Results and Future Work
 <hr></hr>
 Overall I am happy with the results. The final model has a great score on the hold out test set of 70%. For the future, I would love to increase the apps potential. more cocktails, greater variety, maybe even similar drinks based on ingredients.
-Aslo moving the app from streamlit to Heroku or beyond.
+<br><br>
+I a currently working on expanding this app with more cocktails and a better styled app. Comments and suggestions are always welcome!
