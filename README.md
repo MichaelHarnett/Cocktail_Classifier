@@ -42,7 +42,7 @@ The App is available to the public, and can be found [here](https://share.stream
 
 # Data
 <hr></hr>
-As mentioned, the data was not already collected from me. Instead, in the interest of time, and because I have been scraping for so many previous projects, I used a chrome extension to bulk grab bunches of photos of 10 different cocktails. Both Google and Bing have started limiting the total number of searches lately, so a maximum of around 800 were available per drink. I then had to manually go through every photo remove the ones that were not related, and crop some extreme backgrounds out of *some* of the photos. The result was about 4k photos left 
+The dataset of photos used was collected by me. In the interest of time, and because I have been scraping for so many previous projects, I used a chrome extension to bulk grab bunches of photos of 10 different cocktails. Both Google and Bing have started limiting the total number of searches lately, so a maximum of around 800 were available per drink. I then had to manually go through every photo remove the ones that were not related, and crop some extreme backgrounds out of *some* of the photos. The result was about 4k photos left 
 <br>
 The recipies and ingredients were pulled from coktailDB's API
 
