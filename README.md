@@ -75,4 +75,8 @@ After Trying a lot of different configurations, the final set up for the neural 
 <hr></hr>
 Overall I am happy with the results. The final model has a great score on the hold out test set of 70%. For the future, I would love to increase the apps potential. more cocktails, greater variety, maybe even similar drinks based on ingredients.
 <br><br>
-I a currently working on expanding this app with more cocktails and a better styled app. Comments and suggestions are always welcome!
+I am currently working on expanding this app with more cocktails and a better styled app. Comments and suggestions are always welcome!
+<br><br>
+Below is a screenshot of the homepage of [this](https://share.streamlit.io/michaelharnett/cocktail_classifier/main/app/app.py) website.
+
+![screenshot](Data/Readme Images/homepage.png)
