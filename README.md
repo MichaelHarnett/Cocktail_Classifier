@@ -77,7 +77,5 @@ Overall I am happy with the results. The final model has a great score on the ho
 <br><br>
 I am currently working on expanding this app with more cocktails and a better styled app. Comments and suggestions are always welcome!
 <br><br>
-Below is a screenshot of the homepage of [this](https://share.streamlit.io/michaelharnett/cocktail_classifier/main/app/app.py)website.
 
-[screenshot](Data/Readme Images/homepage.png)
 
