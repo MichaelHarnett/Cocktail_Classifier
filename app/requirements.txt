@@ -3,7 +3,7 @@ pandas
 numpy
 Keras
 keras
-Keras-Preprocessing==1.1.2
+Keras-Preprocessing
 matplotlib
 Pillow
-tensorflow==2.4.1
+tensorflow
