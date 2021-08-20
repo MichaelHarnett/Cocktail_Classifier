@@ -1,0 +1,9 @@
+importlib-metadata==3.9
+pandas
+numpy
+Keras
+keras
+Keras-Preprocessing==1.1.2
+matplotlib
+Pillow
+tensorflow==2.4.1
